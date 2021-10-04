@@ -1,0 +1,18 @@
+body {
+    background-color: #ffdab9;
+    color: #f08080;
+    font-family:monospace;
+    font-size: 20px;
+  }
+  h1 {
+    font-family:Haettenschweiler, 'Arial Narrow Bold', sans-serif
+  }
+  .style-color-1 {
+    color: #f8ad9d;
+  }
+  .style-color-2 {
+    color: #cbc0d3;
+  }
+  .style-color-3 {
+    color: #deaaff;
+  }
