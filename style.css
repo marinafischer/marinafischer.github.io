@@ -12,7 +12,9 @@ body {
   }
 
   ol, li, ul {
-    list-style: none;;
+    list-style: none;
+    text-decoration-color: none;
+    color:  rgb(138, 138, 138);
   }
 
   a {
@@ -23,6 +25,8 @@ body {
     background-color: white;
     display: flex;
     align-items: center;
+    /*position: fixed;*/
+    width: 100%;
   }
 
   .cabecalho-nome {
@@ -72,14 +76,16 @@ body {
     width: 150px;
     height: 150px;
     border-radius: 150px;
-    text-align: center;
-    vertical-align: middle;
     margin: 10px;
     padding: 10px;
+    text-align: center;
+    vertical-align: middle;
   }
 
+ 
+
   .painel_conhecimento {
-    background-color: rgb(255, 75, 174); 
+    background-color: rgb(255, 126, 197); 
   }
 
   .painel_habilidades {
@@ -97,20 +103,89 @@ body {
 
 
   .painel_1 {
-    background-color: rgb(255, 75, 174);  
-    justify-content: center;
+    background-color: rgb(255, 126, 197);  
+  }
+
+  .painel_1 p {
+    font-size: 30px;
+    padding: 15px;
+    margin: 5px;
+  }
+
+  .painel_1 ul {
+    font-size: 20px;
+    padding: 15px;
+    margin: 5px;
+    margin-left: 50px;
   }
 
   .painel_2 {
     background-color: rgb(213, 255, 59);
-    
   }
 
+  .painel_2 p {
+    font-size: 30px;
+    padding: 15px;
+    margin: 5px;
+  }
+
+  .painel_2 ul {
+    font-size: 20px;
+    padding: 15px;
+    margin: 5px;
+    margin-left: 50px;
+  }
+
+  .painel_2 h5 {
+    font-size: 20px;
+    margin: 5px 0px 5px -15px;
+  }
+
+  
+  .painel_2 a:hover{
+    font-weight: bold;
+    font-size: 25px;
+  }
 
   .painel_3 {
     background-color: rgb(128, 237, 252); 
   }
 
+  .painel_3 p {
+    font-size: 30px;
+    padding: 15px;
+    margin: 5px;
+  }
+
+  .painel_3 ul {
+    font-size: 20px;
+    padding: 15px;
+    margin: 5px;
+    margin-left: 50px;
+  }
+
+  .painel_3 a:hover{
+    font-weight: bold;
+    font-size: 25px;
+  }
+
   .painel_4 {
     background-color: rgb(255, 134, 86); 
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    width: 100%;
+    
   }
+
+  .painel_4 p {
+    font-size: 20px;
+    padding: 15px;
+  }
+
+  .painel_4 iframe {
+    padding: 30px;
+    margin-left: 150px;
+  }
+
+ 
