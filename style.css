@@ -1,18 +1,116 @@
 body {
-    background-color: #ffdab9;
-    color: #f08080;
+    color: rgb(138, 138, 138);
     font-family:monospace;
     font-size: 20px;
   }
-  h1 {
-    font-family:Haettenschweiler, 'Arial Narrow Bold', sans-serif
+
+  #foto {
+    height: 300px;
+    border-radius: 150px;
+    margin: 30px;
+    padding: 30px;
   }
-  .style-color-1 {
-    color: #f8ad9d;
+
+  ol, li, ul {
+    list-style: none;;
   }
-  .style-color-2 {
-    color: #cbc0d3;
+
+  a {
+    text-decoration: none;
   }
-  .style-color-3 {
-    color: #deaaff;
+
+  .cabecalho {
+    background-color: white;
+    display: flex;
+    align-items: center;
+  }
+
+  .cabecalho-nome {
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .cabecalho-nome h1, .cabecalho-nome h3 {
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .botao-paginas {
+    margin: 20px;
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;    
+  }
+  
+  .botao-paginas a:hover {
+    background-color:rgb(224, 224, 224);
+    border-radius: 50%;
+  }
+  
+  .social {
+    padding: 15px;
+  }
+
+  .painel {
+    background-color: rgb(224, 224, 224);
+    display: flex;
+    align-items: center;
+  }
+
+  .sobre-mim {
+    font-size: 15px;
+    text-align: justify;
+  }
+
+  .apresentacao-painel h1 {
+    font-size: 80px;
+  }
+
+  .botao-painel li{
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .painel_conhecimento {
+    background-color: rgb(255, 75, 174); 
+  }
+
+  .painel_habilidades {
+    background-color: rgb(213, 255, 59); 
+  }
+
+  .painel_trabalhos {
+    background-color: rgb(128, 237, 252);
+  }
+
+  .botao-painel li:hover{
+    background-color:rgb(255, 134, 86);
+  }
+
+
+
+  .painel_1 {
+    background-color: rgb(255, 75, 174);  
+    justify-content: center;
+  }
+
+  .painel_2 {
+    background-color: rgb(213, 255, 59);
+    
+  }
+
+
+  .painel_3 {
+    background-color: rgb(128, 237, 252); 
+  }
+
+  .painel_4 {
+    background-color: rgb(255, 134, 86); 
   }

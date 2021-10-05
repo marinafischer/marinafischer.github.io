@@ -8,59 +8,91 @@
     <title>Marina Fischer</title>
 </head>
 <body>
-    <h1>Marina Miranda Fischer</h1>
-    <img src="me.jpg" alt="Foto Pessoal" style="width: 300px;" id="foto">
-    <h3 id="quem"> Quem sou eu? </h3>
-    <p> 
-        Olá, prazer, bem vindo a minha página!
-        Me chamo Marina Miranda Fischer, apaixonada por aprender. <br>
-        Sou estudante de desenvolvimento web e formada em Engenharia de Alimentos. <br>
-        Os assuntos que mais me interessam são: gastronomia, processos, moda, lógica, linguas e adoro adquirir novos conhecimentos. <br>
-        No meu tempo livre adoro ir para praia, estar com minha família, amigos e meus "filhos": <strong> Gordo </strong><em>o salsicha</em>, <strong> Nacho </strong> <em>o gato ninja</em>. <br>
-        Nesse site, vou compartilhar com vocês meu portfólio...
-        Bom, acho que era isso, se você quiser me conhecer melhor pode acessar minhas redes nos links abaixo, ou ainda conhecer um pouco das minhas habilidades aqui: <br>
-        <a href="#habilidades"> Minhas Habilidades</a>
-    </p>
 
-    <div id="paginas">
-        <a class="style-color-1" href="https://www.instagram.com/ninammf/" target="_blank"> <img src="./instagram.png" width="30px"> </a> <br>
-        <a class="style-color-2" href="https://www.linkedin.com/in/marina-miranda-fischer/" target="_blank">  <img src="./linkedin.png" width="30px"> </a> <br>
-        <a class="style-color-3" href="https://github.com/marinafischer" target="_blank"> <img src="./github.png" width="30px"></a> <br>
+  <div class="cabecalho" id="paginas">
+    <div class="cabecalho-nome">
+      <h1>Marina Miranda Fischer</h1> 
+      <h3>Desenvolvimento Web</h3>
+    </div>
+    <div class="botao-paginas">
+      <a class="style-color-1" href="https://www.instagram.com/ninammf/" target="_blank"> <img src="./instagram.png" width="30px" class="social"> </a> <br>
+      <a class="style-color-2" href="https://www.linkedin.com/in/marina-miranda-fischer/" target="_blank">  <img src="./linkedin.png" width="30px" class="social"> </a> <br>
+      <a class="style-color-3" href="https://github.com/marinafischer" target="_blank"> <img src="./github.png" width="30px" class="social" ></a> <br>
+    </div>
+  </div>
+
+  <div class="painel">
+
+    <img src="me.jpg" alt="Foto Pessoal"  id="foto">
+
+    <div class="apresentacao-painel">
+      <h1 > Olá,</h1>
+      <h3>Conheça um pouco mais sobre mim...</h3>
+
+      <p class="sobre-mim"> 
+          Me chamo Marina Miranda Fischer, mas pode me chamar de <strong> Nina</strong>, sou apaixonada por aprender. <br>
+          Sou estudante de desenvolvimento web e formada em Engenharia de Alimentos. <br>
+          Os assuntos que mais me interessam são: gastronomia, processos, moda, lógica, linguas e adoro adquirir novos conhecimentos. <br>
+          No meu tempo livre adoro ir para praia, estar com minha família, amigos e meus "filhos": <strong> Gordo </strong><em>o salsicha</em>, <strong> Nacho </strong> <em>o gato ninja</em>. <br>
+          É um prazer dividir um pouco da minha história com você...  
+      </p>
 
     </div>
 
+    <ol class="botao-painel"> 
+
+      <a href="#conhecimentos"> <li class="painel_conhecimento">Conhecimentos</li>  </a>
+      <a href="#habilidades"> <li class="painel_habilidades">Habilidades</li> </a>
+      <a href="#trabalhos"> <li class="painel_trabalhos">Trabalhos </li> </a>
+
+    </ol>
+
+  </div>
+
+    <div id="conhecimentos" class="painel_1">
+      <p> Conhecimentos</p>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS</li>
+        <li> Inglês</li>
+        <li> Espanhol</li>  
+      </ul>
+
+    </div>
+
+    <div id="habilidades" class="painel_2">
+      <p>Habilidades</p>
+      <ul >
+        <h5>Técnicas</h5>
+        <li >Lógica</li>
+        <li >Processos</li>
     
-    <ol id="habilidades">
+        <h5>Comportamentais</h5>
+        <li>Comunicação</li>
+        <li>Trabalho em equipe</li>
+        <a href="#Multipotencial"> <li>Multipotencial</li> </a> 
+      </ul>
 
-        <h4>HABILIDADES</h4>
+    </div>
 
-        <h5>Habilidades Técnicas</h5>
-        <ol class="style-color-1">Lógica</ol>
-        <ol class="style-color-2">Processos</ol>
-        <ol class="style-color-3">Inglês</ol>
-        <ol class="style-color-1">Espanhol</ol>
-        
+    <div id="trabalhos" class="painel_3">
+      <p>Meus Trabalhos</p>
+      <ul>
+        <li>Meu primeiro site criado com html e CSS</li>
+        <li>Meu primeir projeto com JS</li>
+        <li>Projeto com React.JS</li>
+      </ul>
 
-        <h5>Habilidades Comportamentais</h5>
-        <ol class="style-color-2">Comunicação</ol>
-        <ol class="style-color-3">Trabalho em equipe</ol>
-        <a href="#Multipotencial"> <ol class="style-color-1">Multipotencial</ol> </a> 
-    </ol>
+    </div>
+    
+    <div class="painel_4">
 
-    <h4>Não achou alguma informação ? É só clicar no índice que eu te direciono </h4>
-    <ol> 
-        <a class="style-color-1" href="#foto"> <li>Minha Foto</li> </a>
-        <a class="style-color-2" href="#quem"> <li>Quem sou eu?</li> </a>
-        <a class="style-color-3" href="#paginas"> <li>Minhas páginas</li> </a>
-        <a class="style-color-1" href="#habilidades"> <li>Minhas habilidades</li> </a>
+      <h4> você sabe o que é multipotencialidade? O vídeo abaixo explica um pouquinho sobre o assunto</h4>
+      <iframe id="Multipotencial" width="950" height="534" src="https://www.youtube.com/embed/4sZdcB6bjI8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    </ol>
+    </div>
 
-
-    <h4> você sabe o que é multipotencialidade? O vídeo abaixo explica um pouquinho sobre o assunto</h4>
-    <iframe id="Multipotencial" src="https://www.youtube.com/watch?v=4sZdcB6bjI8"/>
-
-  
     
 </body>
 </html>
